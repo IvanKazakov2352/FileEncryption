@@ -4,6 +4,7 @@
     {
         byte[] GenerateRandomBytes(int length);
         byte[] EncryptData(byte[] data, byte[] key, byte[] iv);
+        byte[] DecryptData(byte[] data, byte[] key, byte[] iv);
     }
 
     public interface IFileService
